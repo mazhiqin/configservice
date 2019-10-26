@@ -4,6 +4,7 @@ spring:
       - dev
 
 ---
+
 spring:
   profiles: dev
   application:
@@ -13,6 +14,6 @@ spring:
 ---
 
 spring:
-  profiles:test
+  profiles: test
   application:
     name: configservice-test
