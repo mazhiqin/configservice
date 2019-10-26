@@ -6,6 +6,7 @@ spring:
 ---
 
 spring:
+  port: 8082
   profiles: dev
   application:
     name: configservice-dev
